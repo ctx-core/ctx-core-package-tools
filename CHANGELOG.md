@@ -1,5 +1,11 @@
 # @ctx-core/package-tools
 
+## 4.0.12
+
+### Patch Changes
+
+- fix: npm: publish bin/\*.js files
+
 ## 4.0.11
 
 ### Patch Changes
