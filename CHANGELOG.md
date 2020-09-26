@@ -1,5 +1,11 @@
 # @ctx-core/package-tools
 
+## 4.0.11
+
+### Patch Changes
+
+- fix: include bin/\*.js files in npm package
+
 ## 4.0.10
 
 ### Patch Changes
