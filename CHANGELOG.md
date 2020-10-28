@@ -1,5 +1,14 @@
 # @ctx-core/package-tools
 
+## 4.0.21
+
+### Patch Changes
+
+- @types/node: ^14.14.3 -> ^14.14.5
+- typescript: ^4.0.3 -> ^4.0.5
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.21
+
 ## 4.0.20
 
 ### Patch Changes
