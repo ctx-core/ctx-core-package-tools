@@ -1,5 +1,11 @@
 # @ctx-core/package-tools
 
+## 4.0.30
+
+### Patch Changes
+
+- @ctx-core/array@19.1.1
+
 ## 4.0.29
 
 ### Patch Changes
