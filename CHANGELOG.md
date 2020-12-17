@@ -1,5 +1,13 @@
 # @ctx-core/package-tools
 
+## 4.1.8
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+
 ## 4.1.7
 
 ### Patch Changes
