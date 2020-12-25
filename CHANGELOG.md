@@ -1,4 +1,16 @@
-# @ctx-core/package-tools
+# @ctx-core/ctx-core-package-tools
+
+## 5.0.0
+
+### Major Changes
+
+- package name is @ctx-core/ctx-core-package-tools: specific to @ctx-core/dev project
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.13
 
 ## 4.1.16
 
