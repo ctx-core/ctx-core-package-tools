@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 5.0.10
+
+### Patch Changes
+
+- @types/node: ^14.14.17 -> ^14.14.19
+
 ## 5.0.9
 
 ### Patch Changes
