@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 5.0.12
+
+### Patch Changes
+
+- globby: ^11.0.1 -> ^11.0.2
+
 ## 5.0.11
 
 ### Patch Changes
