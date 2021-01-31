@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.0.1
+
+### Patch Changes
+
+- fix: bin/package-refactor.js: loading package_refactor
+
 ## 6.0.0
 
 ### Major Changes
