@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.0.21
+
+### Patch Changes
+
+- @ctx-core/array@20.1.10
+
 ## 6.0.20
 
 ### Patch Changes
