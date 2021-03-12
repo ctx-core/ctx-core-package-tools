@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.0.34
+
+### Patch Changes
+
+- @types/node: ^14.14.33 -> ^14.14.34
+
 ## 6.0.33
 
 ### Patch Changes
