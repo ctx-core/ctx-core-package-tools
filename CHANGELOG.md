@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.0.35
+
+### Patch Changes
+
+- 6d374f5ac: @types/node: ^14.14.34 -> ^14.14.35
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.0
+
 ## 6.0.34
 
 ### Patch Changes
