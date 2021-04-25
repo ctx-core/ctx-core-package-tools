@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.0.44
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.0.43
 
 ### Patch Changes
