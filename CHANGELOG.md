@@ -1,5 +1,16 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.0
+
 ## 6.0.56
 
 ### Patch Changes
