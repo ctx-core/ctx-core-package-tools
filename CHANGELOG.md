@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.1
+
 ## 6.1.0
 
 ### Minor Changes
