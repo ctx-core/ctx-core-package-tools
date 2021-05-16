@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.2
+
 ## 6.1.1
 
 ### Patch Changes
