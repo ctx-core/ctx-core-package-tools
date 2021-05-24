@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "6.1.5",
+  "version": "6.2.0",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -15,9 +15,8 @@
   },
   "license": "Apache-2.0",
   "author": "Brian Takita",
-  "main": "./src/index.js",
-  "module": "./src/index.js",
-  "types": "./src/index.d.ts",
+  "module": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "bin": {
     "package-refactor": "bin/package-refactor.js"
   },
@@ -26,7 +25,7 @@
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^20.3.10"
+    "@ctx-core/array": "workspace:^20.4.0"
   },
   "devDependencies": {
     "@types/glob": "~7.1.3",
