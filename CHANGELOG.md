@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.1.5
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+
 ## 6.1.4
 
 ### Patch Changes
