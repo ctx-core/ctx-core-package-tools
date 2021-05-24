@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+
 ## 6.2.0
 
 ### Minor Changes
