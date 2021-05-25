@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "6.4.0",
+  "version": "6.4.1",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -18,7 +18,8 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "package-refactor": "bin/package-refactor.js"
+    "package-refactor": "bin/package-refactor.js",
+    "symlink_src_assets_to_dist": "bin/symlink_src_assets_to_dist.sh"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",

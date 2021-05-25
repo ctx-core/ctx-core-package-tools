@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.4.1
+
+### Patch Changes
+
+- fix: bin: symlink_src_assets_to_dist
+
 ## 6.4.0
 
 ### Minor Changes
