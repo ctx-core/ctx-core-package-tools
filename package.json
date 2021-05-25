@@ -1,31 +1,33 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "6.2.2",
+  "version": "6.4.0",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
   ],
-  "homepage": "https://github.com/ctx-core/word-segmentation#readme",
+  "homepage": "https://github.com/ctx-core/ctx-core-package-tools#readme",
   "bugs": {
-    "url": "https://github.com/ctx-core/word-segmentation/issues"
+    "url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ctx-core/word-segmentation/issues"
+    "url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
   },
   "license": "Apache-2.0",
   "author": "Brian Takita",
   "module": "./dist/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "bin": {
     "package-refactor": "bin/package-refactor.js"
   },
   "scripts": {
-    "compile": "./node_modules/.bin/tsc -b && chmod a+x bin/*.js",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "./node_modules/.bin/tsc -b .",
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^20.4.2"
+    "@ctx-core/array": "workspace:^20.5.0"
   },
   "devDependencies": {
     "@types/glob": "~7.1.3",

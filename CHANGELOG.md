@@ -1,5 +1,22 @@
 # @ctx-core/ctx-core-package-tools
 
+## 6.4.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+
+## 6.3.0
+
+### Minor Changes
+
+- feat: symlink_src_assets_to_dist
+
 ## 6.2.2
 
 ### Patch Changes
