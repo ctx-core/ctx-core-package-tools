@@ -1,7 +1,7 @@
 import fs from 'fs'
 import globby from 'globby'
 export async function package_refactor() {
-	const promise_a1 = (await globby('packages/*/package.json')).map(
+	const promise_a = (await globby('packages/*/package.json')).map(
 		async package_path=>{
 			const package_json = (await fs.promises.readFile(package_path)).toString()
 			let pkg = JSON.parse(package_json)
@@ -68,5 +68,5 @@ export async function package_refactor() {
 				await fs.promises.writeFile(package_path, JSON.stringify(pkg, null, '\t'))
 			}
 		})
-	await Promise.all(promise_a1)
+	await Promise.all(promise_a)
 }

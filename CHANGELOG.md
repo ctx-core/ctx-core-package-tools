@@ -1,5 +1,18 @@
 # @ctx-core/ctx-core-package-tools
 
+## 7.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.0
+
 ## 6.4.2
 
 ### Patch Changes
