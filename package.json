@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "7.0.10",
+  "version": "7.0.11",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -28,7 +28,7 @@
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^21.2.2"
+    "@ctx-core/array": "workspace:^21.2.3"
   },
   "devDependencies": {
     "@types/glob": "~7.1.3",
