@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 7.0.13
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+
 ## 7.0.12
 
 ### Patch Changes

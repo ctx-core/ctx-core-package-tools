@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "7.0.12",
+  "version": "7.0.13",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -23,12 +23,12 @@
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
+    "clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
     "compile": "./node_modules/.bin/tsc -b .",
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^21.2.5"
+    "@ctx-core/array": "workspace:^21.2.6"
   },
   "devDependencies": {
     "@types/glob": "~7.1.3",
