@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 7.0.14
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+
 ## 7.0.13
 
 ### Patch Changes
