@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 7.0.20
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.0.19
 
 ### Patch Changes
