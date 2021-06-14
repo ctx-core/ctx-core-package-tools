@@ -1,5 +1,16 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.0
+
 ## 7.0.20
 
 ### Patch Changes
