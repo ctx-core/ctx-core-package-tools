@@ -24,10 +24,7 @@
 		"mapRoot": "src",
 		"declarationDir": "src",
 		"importsNotUsedAsValues": "error",
-		"lib": [
-			"dom",
-			"ES2020"
-		]
+		"lib": ["dom", "ESNext"]
  	},
 	"exclude": [
 		"node_modules",
