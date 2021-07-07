@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.18
+
+### Patch Changes
+
+- @types/glob: ~7.1.3 -> 7.1.4
+
 ## 8.0.17
 
 ### Patch Changes
