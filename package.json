@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "8.0.22",
+  "version": "8.0.23",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
