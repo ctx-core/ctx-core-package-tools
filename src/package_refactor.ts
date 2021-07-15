@@ -24,9 +24,9 @@ export async function package_refactor() {
 				update = true
 				delete pkg.gitHead
 			}
-			if (pkg.type) {
+			if (pkg.type !== 'module') {
 				update = true
-				delete pkg.type
+				pkg.type = 'module'
 			}
 			if (!pkg.scripts) {
 				update = true
