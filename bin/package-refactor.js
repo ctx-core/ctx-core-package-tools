@@ -1,4 +1,3 @@
 #!/usr/bin/env node
-require = require('esm')(module);
-const { package_refactor } = require('../dist');
-package_refactor().then();
+import { package_refactor } from '../dist/index.js'
+await package_refactor()

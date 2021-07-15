@@ -1,5 +1,15 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.26
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+- fix: "type": "module"
+- Updated dependencies [2a6971f80]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.1
+
 ## 8.0.25
 
 ### Patch Changes
