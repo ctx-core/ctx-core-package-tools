@@ -1,5 +1,21 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.35
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+
+## 8.0.34
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+
 ## 8.0.33
 
 ### Patch Changes
