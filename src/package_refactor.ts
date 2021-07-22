@@ -1,5 +1,5 @@
 import fs from 'fs'
-import globby from 'globby'
+import { globby } from 'globby'
 export async function package_refactor() {
 	const promise_a = (await globby('packages/*/package.json')).map(
 		async package_path=>{
