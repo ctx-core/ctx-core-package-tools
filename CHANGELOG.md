@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.51
+
+### Patch Changes
+
+- globby: ^12.0.0 -> ^12.0.1
+
 ## 8.0.50
 
 ### Patch Changes
