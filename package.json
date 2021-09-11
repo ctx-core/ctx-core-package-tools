@@ -35,7 +35,7 @@
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^23.0.19"
+    "@ctx-core/array": "workspace:^23.0.20"
   },
   "devDependencies": {
     "@types/glob": "7.1.4",
