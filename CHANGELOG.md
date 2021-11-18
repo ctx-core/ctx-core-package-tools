@@ -1,5 +1,15 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.78
+
+### Patch Changes
+
+- typescript: ^4.4.4 -> ^4.5.2
+- @types/node: ^16.11.7 -> ^16.11.8
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.25
+
 ## 8.0.77
 
 ### Patch Changes
