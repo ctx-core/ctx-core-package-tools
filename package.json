@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "8.0.83",
+  "version": "8.0.85",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/glob": "7.2.0",
-    "@types/node": "^16.11.11",
+    "@types/node": "^16.11.12",
     "esm": "^3.2.25",
     "globby": "^12.0.2",
     "typescript": "next"
