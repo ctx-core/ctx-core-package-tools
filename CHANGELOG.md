@@ -1,5 +1,14 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.89
+
+### Patch Changes
+
+- fix: package.json: exports
+- fix: package-refactor: repository,bugs,homepage
+- Updated dependencies
+  - @ctx-core/array@23.0.35
+
 ## 8.0.88
 
 ### Patch Changes

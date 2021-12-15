@@ -8,17 +8,21 @@ export async function package_refactor() {
 			const { name } = pkg
 			const replacement = name.replace(/^@/, '')
 			let update
-			if (pkg.repository && !!~pkg.repository.url.indexOf('ctx-core/ctx-core')) {
+			const pkg_repository_type = 'git'
+			const pkg_repository_url = `https://github.com/${replacement}.git`
+			if (pkg.repository?.type !== pkg_repository_type || pkg.repository?.url !== pkg_repository_url) {
 				update = true
-				pkg.repository.url = `https://github.com/${replacement}.git`
+				pkg.repository = { type: pkg_repository_type, url: pkg_repository_url }
 			}
-			if (pkg.bugs && !!~pkg.bugs.url.indexOf('ctx-core/ctx-core')) {
+			const pkg_bugs_url = `https://github.com/${replacement}/issues`
+			if (pkg.bugs?.url !== pkg_bugs_url) {
 				update = true
-				pkg.bugs.url = `https://github.com/${replacement}/issues`
+				pkg.bugs = { url: pkg_bugs_url }
 			}
-			if (!pkg.homepage || !!~pkg.homepage.indexOf('ctx-core/ctx-core')) {
+			const pkg_homepage = `https://github.com/${replacement}#readme`
+			if (pkg.homepage !== pkg_homepage) {
 				update = true
-				pkg.homepage = `https://github.com/${replacement}#readme`
+				pkg.homepage = pkg_homepage
 			}
 			if (pkg.gitHead) {
 				update = true
