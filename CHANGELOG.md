@@ -1,5 +1,14 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.88
+
+### Patch Changes
+
+- package-refactor: + svelte: index.js
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+
 ## 8.0.87
 
 ### Patch Changes

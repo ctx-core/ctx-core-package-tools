@@ -32,6 +32,10 @@ export async function package_refactor() {
 				update = true
 				pkg.scripts = {}
 			}
+			if (!pkg.svelte) {
+				update = true
+				pkg.svelte = './dist/index.js'
+			}
 			if (!pkg.scripts.build) {
 				update = true
 				pkg.scripts.build = 'npm run compile'
@@ -42,7 +46,7 @@ export async function package_refactor() {
 			}
 			if (!pkg.devDependencies.typescript) {
 				update = true
-				pkg.devDependencies.typescript = '^4.0.3'
+				pkg.devDependencies.typescript = 'next'
 			}
 			if (!pkg.scripts.exec) {
 				update = true
