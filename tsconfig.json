@@ -19,7 +19,7 @@
 		"typeRoots": [
 			"node_modules/@types"
 		],
-		"rootDir": "src",
+		"rootDir": ".",
 		"outDir": "dist",
 		"mapRoot": "",
 		"declarationDir": "dist",
