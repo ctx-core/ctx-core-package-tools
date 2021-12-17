@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/ctx-core-package-tools",
-  "version": "8.0.94",
+  "version": "8.0.95",
   "description": "package tools for the @ctx-core monorepo",
   "keywords": [
     "ctx-core"
@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "author": "Brian Takita",
   "type": "module",
-  "types": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js"
@@ -35,7 +35,7 @@
     "exec": "$@"
   },
   "dependencies": {
-    "@ctx-core/array": "workspace:^23.0.40"
+    "@ctx-core/array": "workspace:^23.0.41"
   },
   "devDependencies": {
     "@types/glob": "7.2.0",
