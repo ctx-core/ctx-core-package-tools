@@ -19,9 +19,8 @@
 		"typeRoots": [
 			"node_modules/@types"
 		],
-		"rootDir": ".",
+		"rootDir": "src",
 		"outDir": "dist",
-		"mapRoot": "",
 		"declarationDir": "dist",
 		"importsNotUsedAsValues": "error",
 		"lib": ["dom", "ESNext"]
