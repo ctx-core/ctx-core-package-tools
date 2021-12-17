@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.96
+
+### Patch Changes
+
+- version bump
+
 ## 8.0.95
 
 ### Patch Changes
