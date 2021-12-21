@@ -56,10 +56,6 @@ export async function package_refactor() {
 				update = true
 				pkg.scripts.exec = '$@'
 			}
-			if (pkg.scripts.test) {
-				update = true
-				delete pkg.scripts.test
-			}
 			if (pkg.gitHead) {
 				update = true
 				delete pkg.gitHead

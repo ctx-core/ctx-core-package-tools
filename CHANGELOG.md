@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.97
+
+### Patch Changes
+
+- fix: package-refactor: keep scripts.test
+
 ## 8.0.96
 
 ### Patch Changes
