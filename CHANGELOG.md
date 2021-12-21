@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.98
+
+### Patch Changes
+
+- .js+.d.ts instead of .ts
+
 ## 8.0.97
 
 ### Patch Changes

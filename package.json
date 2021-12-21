@@ -1,51 +1,47 @@
 {
-  "name": "@ctx-core/ctx-core-package-tools",
-  "version": "8.0.97",
-  "description": "package tools for the @ctx-core monorepo",
-  "keywords": [
-    "ctx-core"
-  ],
-  "homepage": "https://github.com/ctx-core/ctx-core-package-tools#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "type": "module",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js"
-    },
-    "./package.json": "./package.json"
-  },
-  "bin": {
-    "package-refactor": "bin/package-refactor.mjs",
-    "symlink_src_assets_to_dist": "bin/symlink_src_assets_to_dist.sh"
-  },
-  "scripts": {
-    "build": "npm run copy-mjs && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
-    "compile": "./node_modules/.bin/tsc -b .",
-    "copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
-    "exec": "$@"
-  },
-  "dependencies": {
-    "@ctx-core/array": "workspace:^23.0.41"
-  },
-  "devDependencies": {
-    "@types/glob": "7.2.0",
-    "@types/node": "^17.0.2",
-    "esm": "^3.2.25",
-    "globby": "^12.0.2",
-    "typescript": "next"
-  },
-  "publishConfig": {
-    "access": "public",
-    "cache": "~/.npm"
-  }
+	"name": "@ctx-core/ctx-core-package-tools",
+	"version": "8.0.98",
+	"description": "package tools for the @ctx-core monorepo",
+	"keywords": [
+		"ctx-core"
+	],
+	"homepage": "https://github.com/ctx-core/ctx-core-package-tools#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"type": "module",
+	"types": "./src/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./src/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"bin": {
+		"package-refactor": "bin/package-refactor.mjs",
+		"symlink_src_assets_to_dist": "bin/symlink_src_assets_to_dist.sh"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@"
+	},
+	"dependencies": {
+		"@ctx-core/array": "workspace:^23.0.41"
+	},
+	"devDependencies": {
+		"@types/glob": "7.2.0",
+		"@types/node": "^17.0.2",
+		"globby": "^12.0.2"
+	},
+	"publishConfig": {
+		"access": "public",
+		"cache": "~/.npm"
+	}
 }
