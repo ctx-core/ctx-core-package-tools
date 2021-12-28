@@ -20,14 +20,14 @@
 			"node_modules/@types"
 		],
 		"rootDir": "src",
-		"outDir": "dist",
-		"declarationDir": "dist",
+		"outDir": "lib",
+		"declarationDir": "lib",
 		"importsNotUsedAsValues": "error",
 		"lib": ["dom", "ESNext"]
  	},
 	"exclude": [
 		"node_modules",
-		"dist"
+		"lib"
 	],
 	"references": []
 }
