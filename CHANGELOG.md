@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.102
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.0.101
 
 ### Patch Changes
