@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.103
+
+### Patch Changes
+
+- @types/node: ^17.0.7 -> ^17.0.8
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+
 ## 8.0.102
 
 ### Patch Changes
