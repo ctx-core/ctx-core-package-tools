@@ -1,5 +1,14 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.104
+
+### Patch Changes
+
+- package-refactor: sideEffects = false
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/array@23.1.4
+
 ## 8.0.103
 
 ### Patch Changes
