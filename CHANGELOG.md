@@ -1,5 +1,14 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.105
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@24.0.0
+
 ## 8.0.104
 
 ### Patch Changes
