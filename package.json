@@ -36,7 +36,7 @@
 		"@ctx-core/array": "workspace:^24.0.1"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.14"
+		"@types/node": "^17.0.15"
 	},
 	"publishConfig": {
 		"access": "public",
