@@ -33,7 +33,7 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/array": "*"
+		"@ctx-core/array": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/node": "^17.0.16"
