@@ -34,7 +34,7 @@
 		"@ctx-core/array": "^26.7.6"
 	},
 	"devDependencies": {
-		"@types/node": "^18.7.2"
+		"@types/node": "^18.7.3"
 	},
 	"publishConfig": {
 		"access": "public",
