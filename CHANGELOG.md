@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.130
+
+### Patch Changes
+
+- @ctx-core/array: ^26.8.8 -> ^26.8.9
+
 ## 8.0.129
 
 ### Patch Changes
