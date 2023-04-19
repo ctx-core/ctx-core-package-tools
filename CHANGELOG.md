@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.0.194
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+
 ## 8.0.193
 
 ### Patch Changes
