@@ -45,7 +45,7 @@ export async function package_refactor() {
 				}
 				if (!pkg.scripts.build) {
 					update = true
-					pkg.scripts.build = 'npm run compile'
+					pkg.scripts.build = 'pnpm compile'
 				}
 				if (!pkg.devDependencies) {
 					update = true
