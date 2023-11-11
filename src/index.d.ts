@@ -1,1 +1,1 @@
-export * from './package_refactor'
+export * from './package_refactor.js'

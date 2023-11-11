@@ -3,7 +3,7 @@ import { exec } from 'child_process'
 import { promisify } from 'util'
 const exec_async = promisify(exec)
 export async function package_refactor() {
-	await exec_async('find packages/*/package.json')
+	await exec_async('find lib/*/package.json')
 		.then($=>$.stdout.trim().split('\n').map(
 			async $=>{
 				const package_json = (await fs.promises.readFile($)).toString()
