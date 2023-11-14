@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/array@27.0.2
+
 ## 8.1.1
 
 ### Patch Changes
