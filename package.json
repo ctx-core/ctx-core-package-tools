@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ctx-core-package-tools",
-	"version": "8.1.16",
+	"version": "8.1.17",
 	"description": "package tools for the @ctx-core monorepo",
 	"keywords": [
 		"ctx-core"
@@ -31,12 +31,12 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.16",
+		"@ctx-core/array": "^27.0.17",
 		"dir-glob": "^3.0.1",
 		"path-type": "^5.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^20.9.1"
+		"@types/node": "^20.9.2"
 	},
 	"publishConfig": {
 		"access": "public",
