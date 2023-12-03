@@ -67,7 +67,7 @@ export async function package_refactor() {
 					update = true
 					delete pkg.gitHead
 				}
-				if (/\n  /.test(package_json)) {
+				if (/\n {2}/.test(package_json)) {
 					update = true
 				}
 				if (update) {
