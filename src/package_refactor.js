@@ -71,11 +71,6 @@ export async function package_refactor() {
 					update = true
 				}
 				if (update) {
-					console.debug(replacement, {
-						repository: pkg.repository,
-						bugs: pkg.bugs,
-						homepage: pkg.homepage,
-					})
 					await fs.promises.writeFile($, JSON.stringify(pkg, null, '\t'))
 				}
 			}))

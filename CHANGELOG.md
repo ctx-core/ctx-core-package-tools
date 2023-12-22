@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.1.61
+
+### Patch Changes
+
+- package_refactor: - console.debug
+
 ## 8.1.60
 
 ### Patch Changes
