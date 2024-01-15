@@ -1,5 +1,5 @@
-import fs from 'fs'
-import { exec } from 'child_process'
+import fs from 'node:fs'
+import { exec } from 'node:child_process'
 import { promisify } from 'util'
 const exec_async = promisify(exec)
 export async function package_refactor() {
