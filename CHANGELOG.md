@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.1.69
+
+### Patch Changes
+
+- @types/node: ^20.11.2 -> ^20.11.3
+
 ## 8.1.68
 
 ### Patch Changes
