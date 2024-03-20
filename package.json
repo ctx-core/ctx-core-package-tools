@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ctx-core-package-tools",
-	"version": "8.1.89",
+	"version": "8.1.90",
 	"description": "package tools for the @ctx-core monorepo",
 	"keywords": [
 		"ctx-core"
@@ -14,7 +14,11 @@
 		"url": "https://github.com/ctx-core/ctx-core-package-tools/issues"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-package-tools@briantakita.me"
+	},
 	"type": "module",
 	"types": "./src/index.d.ts",
 	"exports": {

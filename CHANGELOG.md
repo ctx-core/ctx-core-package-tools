@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.1.90
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 8.1.89
 
 ### Patch Changes
