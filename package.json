@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ctx-core-package-tools",
-	"version": "8.1.92",
+	"version": "8.2.0",
 	"description": "package tools for the @ctx-core monorepo",
 	"keywords": [
 		"ctx-core"
@@ -20,11 +20,18 @@
 		"email": "info+ctx-core-package-tools@briantakita.me"
 	},
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"bin",
+		"package_refactor"
+	],
 	"bin": {
 		"package-refactor": "bin/package-refactor.mjs",
 		"symlink_src_assets_to_dist": "bin/symlink_src_assets_to_dist.sh"

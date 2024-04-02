@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import { package_refactor } from '../src/index.js'
+import { package_refactor } from '../index.js'
 await package_refactor()

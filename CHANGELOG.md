@@ -1,5 +1,13 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.2.0
+
+### Minor Changes
+
+- - fix: packaging files & directories
+
+    ./tsconfig.json: moduleResolution: nodenext
+
 ## 8.1.92
 
 ### Patch Changes
