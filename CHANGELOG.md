@@ -1,5 +1,11 @@
 # @ctx-core/ctx-core-package-tools
 
+## 8.2.29
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 8.2.28
 
 ### Patch Changes
